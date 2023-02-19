@@ -1,0 +1,25 @@
+# Ignore PhpStorm files
+.idea/
+
+# Sites files
+web/sites/default/files
+
+# Ignore drupal core & modules contrib
+web/libraries
+web/core
+web/modules/contrib
+web/themes/contrib
+web/profiles/contrib
+
+# Ignore default drupal files
+web/autoload.php
+web/index.php
+
+# Ignore composer vendor files
+/vendor
+web/.htaccess
+web/tmp/*
+
+
+# Ignore paths that contain user-generated content.
+private
